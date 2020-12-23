@@ -8,6 +8,7 @@ import {PaFamilyLawComponent} from './pa-family-law/pa-family-law.component';
 import {PaGuardianshipComponent} from './pa-guardianship/pa-guardianship.component';
 import {PaWillsTrustsEstatesComponent} from './pa-wills-trusts-estates/pa-wills-trusts-estates.component';
 import {PaProbateComponent} from './pa-probate/pa-probate.component';
+import {ContactUsComponent} from './contact-us/contact-us.component';
 
 const routes: Routes = [
   {path: 'home', component: HomePageComponent},
@@ -22,6 +23,7 @@ const routes: Routes = [
       {path: 'probate', component: PaProbateComponent},
     ]
   },
+  {path: 'contact-us', component: ContactUsComponent},
   {path: '**', component: HomePageComponent},
 ];
 
