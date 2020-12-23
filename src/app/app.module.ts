@@ -7,11 +7,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from './material.module';
 import {HomePageComponent} from './home-page/home-page.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import { AboutTheFirmComponent } from './about-the-firm/about-the-firm.component';
+import { PracticeAreasComponent } from './practice-areas/practice-areas.component';
+import { PaFamilyLawComponent } from './pa-family-law/pa-family-law.component';
+import { PaGuardianshipComponent } from './pa-guardianship/pa-guardianship.component';
+import { PaWillsTrustsEstatesComponent } from './pa-wills-trusts-estates/pa-wills-trusts-estates.component';
+import { PaProbateComponent } from './pa-probate/pa-probate.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
+    AboutTheFirmComponent,
+    PracticeAreasComponent,
+    PaFamilyLawComponent,
+    PaGuardianshipComponent,
+    PaWillsTrustsEstatesComponent,
+    PaProbateComponent,
   ],
   imports: [
     BrowserModule,
