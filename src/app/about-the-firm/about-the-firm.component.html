@@ -1,1 +1,11 @@
-<p>about-the-firm works!</p>
+<div fxLayout="row" fxLayoutAlign="space-between" style="margin-left: 10px">
+  <div fxFlex="33"><img width="100%" src="/assets/kelly-headshot-gray.jpg" alt="Kelly Sundberg"></div>
+  <div fxFlex="66">
+    <p>
+      Kelly Sundberg, PC has been helping clients with their legal needs since 2002.
+    </p>
+    <p *ngIf="!short">
+      More information
+    </p>
+  </div>
+</div>

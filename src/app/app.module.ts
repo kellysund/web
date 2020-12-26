@@ -14,6 +14,8 @@ import { PaGuardianshipComponent } from './pa-guardianship/pa-guardianship.compo
 import { PaWillsTrustsEstatesComponent } from './pa-wills-trusts-estates/pa-wills-trusts-estates.component';
 import { PaProbateComponent } from './pa-probate/pa-probate.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { PracticeAreaCardsComponent } from './practice-area-cards/practice-area-cards.component';
+import { ContactMiniComponent } from './contact-mini/contact-mini.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     PaWillsTrustsEstatesComponent,
     PaProbateComponent,
     ContactUsComponent,
+    PracticeAreaCardsComponent,
+    ContactMiniComponent,
   ],
   imports: [
     BrowserModule,

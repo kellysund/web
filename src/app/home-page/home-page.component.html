@@ -2,41 +2,15 @@
   <img src="/assets/kelly-logo-right.png" alt="Kelly Sundberg logo">
 </div>
 <div fxLayout="column" fxLayoutAlign="space-between">
-  <div fxLayout="row" fxLayout.lt-lg="column" fxLayoutAlign="space-between" style="margin: 10px 10px">
-    <div fxLayout="row" fxLayoutAlign="space-between" fxFlex="100" fxFlex.gt-sm="66">
-      <div fxFlex="33"><img width="100%" src="/assets/kelly-headshot-gray.jpg" alt="Kelly Sundberg"></div>
-      <div fxFlex="66">Kelly Sundberg, PC has been helping clients with their legal needs since 2002.</div>
+  <div fxLayout="row" fxLayout.lt-lg="column" fxLayoutAlign="space-between">
+    <div fxLayout="row"  fxFlex="100" fxFlex.gt-sm="66">
+      <app-about-the-firm [short]="true"></app-about-the-firm>
     </div>
-    <div fxLayout="column" fxLayoutAlign="start center" fxFlex="100" fxFlex.gt-sm="33" class="primary-background" style="padding: 20px 10px">
-      <div style="margin: 10px; text-align: center;">
-        Whatever your situation, we can help you navigate the legal issues.
-      </div>
-      <div fxLayout="row" fxLayoutAlign="space-between" style="margin-top: 20px">
-        <a mat-raised-button color="accent" href="tel:5122463995" style="font-size: medium; padding: 10px 25px; margin: 0 5px 0 0">Call 512-246-3995</a>
-        <button mat-raised-button color="accent" style="font-size: medium; padding: 10px 25px; margin: 0 0 0 5px">Send a message</button>
-      </div>
+    <div fxLayout="row" fxFlex="100" fxFlex.gt-sm="33" class="primary-background">
+      <app-contact-mini></app-contact-mini>
     </div>
   </div>
-  <div fxLayout="row" fxLayout.sm="column" fxLayoutAlign="space-between stretch" fxLayoutAlign.sm="space-around stretch">
-      <mat-card class="practice-area">
-        <img mat-card-image src="/assets/family-law.jpg">
-        <mat-card-title>Family Law</mat-card-title>
-        <mat-card-subtitle>Navigating delicate family situations</mat-card-subtitle>
-      </mat-card>
-      <mat-card class="practice-area">
-        <img mat-card-image src="/assets/guardianship.jpg">
-        <mat-card-title>Guardianship</mat-card-title>
-        <mat-card-subtitle>Some info about guardianship</mat-card-subtitle>
-      </mat-card>
-      <mat-card class="practice-area">
-        <img mat-card-image src="/assets/wills-and-estates.jpg">
-        <mat-card-title>Wills, Trusts, and Estates</mat-card-title>
-        <mat-card-subtitle>Some info about Trusts and Estates</mat-card-subtitle>
-      </mat-card>
-      <mat-card class="practice-area">
-        <img mat-card-image src="/assets/probate.jpg">
-        <mat-card-title>Probate</mat-card-title>
-        <mat-card-subtitle>Some info about Probate</mat-card-subtitle>
-      </mat-card>
+  <div fxLayout="row" class="accent-background">
+    <app-practice-area-cards></app-practice-area-cards>
   </div>
 </div>

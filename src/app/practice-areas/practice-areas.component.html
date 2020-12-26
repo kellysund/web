@@ -1,3 +1,10 @@
-<p>practice-areas works!</p>
+<h1>Practice areas</h1>
+
+<p>Some general information about areas of practice.</p>
+
+<a mat-raised-button routerLink="family-law" routerLinkActive #rlaFL="routerLinkActive" [color]="rlaFL.isActive ? 'primary' : 'accent'">Family Law</a> |
+<a mat-raised-button routerLink="guardianship" routerLinkActive #rlaG="routerLinkActive" [color]="rlaG.isActive ? 'primary' : 'accent'">Guardianship</a> |
+<a mat-raised-button routerLink="wills-trusts-estates" routerLinkActive #rlaWTE="routerLinkActive" [color]="rlaWTE.isActive ? 'primary' : 'accent'">Wills, Trusts, and Estates</a> |
+<a mat-raised-button routerLink="probate" routerLinkActive #rlaP="routerLinkActive" [color]="rlaP.isActive ? 'primary' : 'accent'">Probate</a>
 
 <router-outlet></router-outlet>

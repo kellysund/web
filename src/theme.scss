@@ -248,27 +248,31 @@ $altTheme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
 html, body { height: 100%; }
 body { margin: 0; }
 /* unvisited link */
-a:link {
+a.basic:link {
   color: #{$light-primary-text} !important;;
   text-decoration: none;
 }
 
 /* visited link */
-a:visited {
+a.basic:visited {
   color: #{$light-primary-text} !important;;
   text-decoration: none;
 }
 
 /* mouse over link */
-a:hover {
+a.basic:hover {
   color: #{$light-primary-text} !important;;
   text-decoration: underline;
 }
 
 /* selected link */
-a:active {
+a.basic:active {
   color: #{$light-primary-text} !important;;
   text-decoration: underline;
+}
+
+.accent-background {
+  background-color: mat-color($mat-accent, main)
 }
 
 .footer, .primary-background {
