@@ -9,6 +9,7 @@ import {PaGuardianshipComponent} from './pa-guardianship/pa-guardianship.compone
 import {PaWillsTrustsEstatesComponent} from './pa-wills-trusts-estates/pa-wills-trusts-estates.component';
 import {PaProbateComponent} from './pa-probate/pa-probate.component';
 import {ContactUsComponent} from './contact-us/contact-us.component';
+import {FaqComponent} from './faq/faq.component';
 
 const routes: Routes = [
   {path: 'home', component: HomePageComponent},
@@ -17,6 +18,7 @@ const routes: Routes = [
     path: 'practice-areas',
     component: PracticeAreasComponent,
     children: [
+      {path: 'faq', component: FaqComponent},
       {path: 'family-law', component: PaFamilyLawComponent},
       {path: 'guardianship', component: PaGuardianshipComponent},
       {path: 'wills-trusts-estates', component: PaWillsTrustsEstatesComponent},

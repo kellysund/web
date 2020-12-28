@@ -16,6 +16,7 @@ import { PaProbateComponent } from './pa-probate/pa-probate.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { PracticeAreaCardsComponent } from './practice-area-cards/practice-area-cards.component';
 import { ContactMiniComponent } from './contact-mini/contact-mini.component';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ContactMiniComponent } from './contact-mini/contact-mini.component';
     ContactUsComponent,
     PracticeAreaCardsComponent,
     ContactMiniComponent,
+    FaqComponent,
   ],
   imports: [
     BrowserModule,
