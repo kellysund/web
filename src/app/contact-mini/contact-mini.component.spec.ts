@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ContactMiniComponent } from './contact-mini.component';
+import {MaterialModule} from '../material.module';
 
 describe('ContactMiniComponent', () => {
   let component: ContactMiniComponent;
@@ -8,7 +9,8 @@ describe('ContactMiniComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ContactMiniComponent ]
+      declarations: [ ContactMiniComponent ],
+      imports: [ MaterialModule ]
     })
     .compileComponents();
   });

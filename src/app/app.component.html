@@ -12,10 +12,10 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>Kelly Sundberg Law</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="/home">Home</a>
-      <a mat-list-item href="/about">About the firm</a>
-      <a mat-list-item href="/practice-areas">Practice areas</a>
-      <a mat-list-item href="/contact-us">Contact us</a>
+      <a mat-list-item routerLink="/home">Home</a>
+      <a mat-list-item routerLink="/about">About the firm</a>
+      <a mat-list-item routerLink="/practice-areas">Practice areas</a>
+      <a mat-list-item routerLink="/contact-us">Contact us</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -28,7 +28,7 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <div fxLayout="row">
-        <a class="basic" href="/home"><span [style]="{marginRight: '5px', marginLeft: '5px', fontWeight: 'bold'}">Kelly Sundberg</span>Law</a>
+        <a class="basic" routerLink="/home"><span [style]="{marginRight: '5px', marginLeft: '5px', fontWeight: 'bold'}">Kelly Sundberg</span>Law</a>
       </div>
     </mat-toolbar>
     <div fxLayout="column">
@@ -55,7 +55,7 @@
     </div>
     <div fxFlex="100" fxLayout="column" fxLayoutAlign="center center" class="mat-body-2" style="margin-top: 10px;">
       <div>&#169; 2020 <a class="basic" href="https://www.texasbar.com/AM/Template.cfm?Section=Find_A_Lawyer&template=/Customsource/MemberDirectory/MemberDirectoryDetail.cfm&ContactID=208307">Kelly Sundberg, P.C.</a> All rights reserved.</div>
-      <div><a class="basic" routerLink="disclaimer">Disclaimer</a> | <a class="basic" routerLink="privacy-policy">Privacy policy</a> | <a class="basic" routerLink="sitemap">Site map</a></div>
+      <div><a class="basic" routerLink="/disclaimer">Disclaimer</a> | <a class="basic" routerLink="/privacy-policy">Privacy policy</a> | <a class="basic" routerLink="/sitemap">Site map</a></div>
     </div>
     </div>
   </mat-sidenav-content>

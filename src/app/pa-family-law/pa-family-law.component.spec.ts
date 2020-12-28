@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PaFamilyLawComponent } from './pa-family-law.component';
+import {MaterialModule} from '../material.module';
 
 describe('PaFamilyLawComponent', () => {
   let component: PaFamilyLawComponent;
@@ -8,7 +9,8 @@ describe('PaFamilyLawComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PaFamilyLawComponent ]
+      declarations: [ PaFamilyLawComponent ],
+      imports: [ MaterialModule ]
     })
     .compileComponents();
   });

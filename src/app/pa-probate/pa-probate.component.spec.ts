@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PaProbateComponent } from './pa-probate.component';
+import {MaterialModule} from '../material.module';
 
 describe('PaProbateComponent', () => {
   let component: PaProbateComponent;
@@ -8,7 +9,8 @@ describe('PaProbateComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PaProbateComponent ]
+      declarations: [ PaProbateComponent ],
+      imports: [ MaterialModule ],
     })
     .compileComponents();
   });

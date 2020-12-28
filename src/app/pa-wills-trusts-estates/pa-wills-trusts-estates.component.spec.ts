@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PaWillsTrustsEstatesComponent } from './pa-wills-trusts-estates.component';
+import {MaterialModule} from '../material.module';
 
 describe('PaWillsTrustsEstatesComponent', () => {
   let component: PaWillsTrustsEstatesComponent;
@@ -8,7 +9,8 @@ describe('PaWillsTrustsEstatesComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PaWillsTrustsEstatesComponent ]
+      declarations: [ PaWillsTrustsEstatesComponent ],
+      imports: [ MaterialModule ],
     })
     .compileComponents();
   });

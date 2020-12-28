@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PracticeAreaCardsComponent } from './practice-area-cards.component';
+import {MaterialModule} from '../material.module';
 
 describe('PracticeAreaCardsComponent', () => {
   let component: PracticeAreaCardsComponent;
@@ -8,7 +9,8 @@ describe('PracticeAreaCardsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PracticeAreaCardsComponent ]
+      declarations: [ PracticeAreaCardsComponent ],
+      imports: [ MaterialModule ],
     })
     .compileComponents();
   });
